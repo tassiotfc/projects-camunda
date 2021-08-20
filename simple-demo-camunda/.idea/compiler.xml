@@ -6,6 +6,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="error-handling" />
+        <module name="messaging-bpmn" />
         <module name="advanced-bpmn-symbols" />
         <module name="simple-demo-camunda" />
       </profile>
