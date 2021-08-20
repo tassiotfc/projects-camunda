@@ -10,5 +10,5 @@ Etapas:
 - Catching a BPMN Error Event
 - Running Process and Triggering a Error
 
-Referencência:
+Referência:
 - [Building a Camunda Platform with Spring Boot](https://www.youtube.com/playlist?list=PLJG25HlmvsOVssaiPmavxv3htN_dXS3BW)
