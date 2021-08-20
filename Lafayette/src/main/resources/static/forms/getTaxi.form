@@ -1,0 +1,34 @@
+{
+  "type": "default",
+  "components": [
+    {
+      "key": "country",
+      "label": "Where are you headed?",
+      "type": "textfield",
+      "description": "Country you are going to",
+      "validate": {
+        "pattern": "America|France"
+      }
+    },
+    {
+      "key": "money",
+      "label": "Pack Cash",
+      "type": "textfield",
+      "description": "How much cash do you want to bring?",
+      "validate": {
+        "required": true,
+        "pattern": "^(?:0|[1-9][0-9]*)\\.[0-9]+$"
+      }
+    },
+    {
+      "key": "taxiCost",
+      "label": "Entry price of Taxi",
+      "type": "textfield",
+      "description": "for tax reasons",
+      "validate": {
+        "pattern": "^(?:0|[1-9][0-9]*)\\.[0-9]+$",
+        "required": true
+      }
+    }
+  ]
+}
